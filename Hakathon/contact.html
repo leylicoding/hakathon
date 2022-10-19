@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>De Kaas</title>
+</head>
+
+<body>
+    <nav>
+        <ul id="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">De Kaas</a></li>
+            <li><a href="./geschiedenis.html">Geschiedenis</a></li>
+            <li><a href="./Kaasbereiding.html">Kaasbereiding</a></li>
+        </ul>
+    </nav>
+    <div></div>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Telephone Number <input type="tel" name="phone" /></label>
+        </p>
+        <p>
+          <label>Age <input type="number" name="age" min="1" max="200" /></label>
+        </p>
+        <p>
+          <label>Date Of Birth <input type="date" name="date" /></label>
+        </p>
+        <p>
+          <label>Gender : </label>
+        </p>
+        <p>
+          <label>Male <input type="radio" name="gender" value="male" /></label>
+        </p>
+        <p>
+          <label
+            >Female <input type="radio" name="gender" value="female"
+          /></label>
+        </p>
+        <p>
+          <label>Favorite Cuisine : </label>
+        </p>
+        <p>
+          <label>French <input type="checkbox" name="french" /></label>
+        </p>
+        <p>
+          <label>Italian <input type="checkbox" name="italian" /></label>
+        </p>
+        <p>
+          <label>Spanish <input type="checkbox" name="spanish" /></label>
+        </p>
+        <p>
+          <label>Favorite Apron Color :</label>
+        </p>
+        <p>
+          <label> <input type="color" name="color picker" /></label>
+        </p>
+        <p>
+          <label
+            >Biography
+            <textarea name="bio" id="textarea" cols="20" rows="5"></textarea>
+            <input type="hidden" name="hidden" value="hi" />
+          </label>
+        </p>
+        <p>
+          <label>URL <input type="url" name="url" /></label>
+        </p>
+        <p>
+          <button type="reset">Reset</button>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      <footer>
+        ©️ Copyright | Leyli Salem ©️
+    </footer>
+</body>
+</html>
+  

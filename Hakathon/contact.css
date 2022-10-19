@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(201, 76, 76);
+    color: burlywood;
+    font-size: 1rem;
+    align-items: center;
+  }
+  nav {
+    text-align: center;
+}
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    background-color: burlywood;
+    padding: 1em;
+}
+  a {
+    color: brown;
+    text-decoration: none;
+    list-style: none;
+    font-style: italic;
+  }
+
+  ul {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+    list-style: none;
+  }
+  p {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  form {
+    border-width: 8px;
+    border-color: white;
+    box-shadow: 8px 8px 8px burlywood;
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding: 100px;
+  }
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 8px 8px 8px burlywood;
+  }
+  footer{
+    padding: 2em;
+    text-align: center;
+    background-color: burlywood;
+    color: #333;
+  }
+
+  @media (min-width: 1024px) {
+    body {
+      background-color: brown;
+      color: white;
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+    div {
+        width: 80px;
+        height: 35px;
+        background: burlywood;
+        position: relative;
+        animation: mymove 5s infinite;
+        border-radius: 0.4em;
+      }
+      
+      @keyframes mymove {
+        from {left: 60px;}
+        to {left: 1000px;}
+      }
+    
+    a {
+      color: #333;
+      text-decoration: none;
+      font-size: 2.3rem;
+    }
+    li {
+      font-size: 3.5rem;
+      display: inline;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom-width: 0;
+      margin-right: 2rem;
+      border: 3px solid black;
+      border-radius: 0.5rem;
+      padding: 0.5rem 3rem;
+    }
+    footer {
+      margin: 0 auto;
+      width: fit-content;
+    }
+  }
